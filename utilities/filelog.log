@@ -8,3 +8,59 @@
 2022-09-18 02:02:11,899 : INFO testdataloading : UPI selected successfully
 2022-09-18 02:02:24,024 : INFO testdataloading : UPI selected successfully
 2022-09-18 02:02:24,024 : INFO testdataloading : UPI selected successfully
+2022-09-25 13:28:31,369 : INFO testshopping : Product search successful
+2022-09-25 13:29:02,454 : INFO testshopping : Proceed successful, now time to fill up details
+2022-09-25 13:29:05,527 : INFO testdataloading : UPI selected successfully
+2022-09-25 13:29:14,354 : INFO testdataloading : UPI selected successfully
+2022-09-25 13:29:14,354 : INFO testdataloading : UPI selected successfully
+2022-09-29 11:14:42,016 : INFO testshopping : Product search successful
+2022-09-29 11:15:12,443 : INFO testshopping : Proceed successful, now time to fill up details
+2022-09-29 11:15:15,050 : INFO testdataloading : UPI selected successfully
+2022-09-29 11:15:23,985 : INFO testdataloading : UPI selected successfully
+2022-09-29 11:15:23,985 : INFO testdataloading : UPI selected successfully
+2022-09-29 11:32:44,889 : INFO testshopping : Product search successful
+2022-09-29 11:32:59,296 : INFO testshopping : Proceed successful, now time to fill up details
+2022-09-29 11:34:25,632 : INFO testshopping : Product search successful
+2022-09-29 11:34:55,784 : INFO testshopping : Proceed successful, now time to fill up details
+2022-09-29 12:01:35,178 : INFO testshopping : Product search successful
+2022-09-29 12:02:05,300 : INFO testshopping : Proceed successful, now time to fill up details
+2022-09-29 12:15:20,875 : INFO testshopping : Product search successful
+2022-09-29 12:15:51,384 : INFO testshopping : Proceed successful, now time to fill up details
+2022-09-29 13:23:58,860 : INFO testshopping : Product search successful
+2022-09-29 13:24:29,364 : INFO testshopping : Proceed successful, now time to fill up details
+2022-09-29 13:28:33,917 : INFO testshopping : Product search successful
+2022-09-29 13:29:04,569 : INFO testshopping : Proceed successful, now time to fill up details
+2022-09-29 13:35:16,153 : INFO testshopping : Product search successful
+2022-09-29 13:35:43,952 : INFO testshopping : Proceed successful, now time to fill up details
+2022-09-29 13:36:25,502 : INFO testshopping : Product search successful
+2022-09-29 13:36:53,471 : INFO testshopping : Proceed successful, now time to fill up details
+2022-09-29 13:37:38,096 : INFO testshopping : Product search successful
+2022-09-29 13:38:06,174 : INFO testshopping : Proceed successful, now time to fill up details
+2022-09-29 13:41:09,251 : INFO testshopping : Product search successful
+2022-09-29 13:41:36,935 : INFO testshopping : Proceed successful, now time to fill up details
+2022-09-29 13:42:11,178 : INFO testshopping : Product search successful
+2022-09-29 13:42:39,127 : INFO testshopping : Proceed successful, now time to fill up details
+2022-09-29 13:43:14,456 : INFO testshopping : Product search successful
+2022-09-29 13:43:42,555 : INFO testshopping : Proceed successful, now time to fill up details
+2022-09-29 13:45:09,494 : INFO testshopping : Product search successful
+2022-09-29 13:45:37,092 : INFO testshopping : Proceed successful, now time to fill up details
+2022-09-29 13:46:15,071 : INFO testshopping : Product search successful
+2022-09-29 13:46:43,138 : INFO testshopping : Proceed successful, now time to fill up details
+2022-09-29 13:47:38,063 : INFO testshopping : Product search successful
+2022-09-29 13:48:06,151 : INFO testshopping : Proceed successful, now time to fill up details
+2022-09-29 13:49:47,694 : INFO testshopping : Product search successful
+2022-09-29 13:49:59,358 : INFO testshopping : Proceed successful, now time to fill up details
+2022-09-29 14:15:09,704 : INFO testshopping : Product search successful
+2022-09-29 14:15:38,046 : INFO testshopping : Proceed successful, now time to fill up details
+2022-09-29 21:38:00,896 : INFO testshopping : Product search successful
+2022-09-29 21:38:27,586 : INFO testshopping : Proceed successful, now time to fill up details
+2022-09-29 21:45:31,842 : INFO testshopping : Product search successful
+2022-09-29 21:45:57,871 : INFO testshopping : Proceed successful, now time to fill up details
+2022-09-29 21:46:51,185 : INFO testshopping : Product search successful
+2022-09-29 21:47:17,527 : INFO testshopping : Proceed successful, now time to fill up details
+2022-09-29 22:12:31,109 : INFO testshopping : Product search successful
+2022-09-29 22:12:56,864 : INFO testshopping : Proceed successful, now time to fill up details
+2022-09-29 22:40:43,085 : INFO testshopping : Product search successful
+2022-09-29 22:40:54,074 : INFO testshopping : Proceed successful, now time to fill up details
+2022-09-29 22:46:43,403 : INFO testshopping : Product search successful
+2022-09-29 22:47:08,500 : INFO testshopping : Proceed successful, now time to fill up details

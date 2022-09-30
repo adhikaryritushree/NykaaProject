@@ -2,12 +2,13 @@ import time
 
 import pytest
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
 from PageObject.AddToCartPage import AddToCartPage
 from PageObject.HomePage import HomePage
 from PageObject.PaymentPage import PaymentPage
+from PageObject.SecondPaymentPage import SecondPaymentPage
 from PageObject.UserDetailsPage import UserDetailsPage
 from utilities.BaseClass import BaseClass
 
@@ -29,7 +30,8 @@ class TestNykaa(BaseClass):
         addtocart.clickcarticon()
         time.sleep(3)
         addtocart.switchtoframe()
-        time.sleep(5)
+        wait1 = WebDriverWait(self.driver, 10)
+        wait1.until(expected_conditions.presence_of_element_located((By.XPATH, "//span[text()='Proceed']")))
         addtocart.proceedasaguest()
         log.info("Proceed successful, now time to fill up details")
         userdetails = UserDetailsPage(self.driver)
@@ -45,16 +47,25 @@ class TestNykaa(BaseClass):
         userdetails1.enteraddress().send_keys(dataload[4])
         userdetails1.submitdetails()
         paymentpg = PaymentPage(self.driver)
-        paymentpg.selectupi()
-        log.info("UPI selected successfully")
-        paymentpg.enterupi().send_keys(dataload[5])
-        time.sleep(1)
-        paymentpg.makepayment().click()
-        time.sleep(5)
-        self.driver.get("https://www.nykaa.com/shoppingBag?ptype=cartAddress")
+        paymentpg.mobilewallet()
+        paymentpg.clickpay()
+        paymentpg.clickonupioption()
+        paymentpg.entervpa()
+        paymentpg.finalpayment()
+        self.driver.back()
+    def testsecondpay(self, dataload1):
+        paymentpg2 = SecondPaymentPage(self.driver)
+        paymentpg2.clickupi()
+        paymentpg2.sendupi().send_keys(dataload1)
+        time.sleep(2)
+        paymentpg2.makepayment()
+        self.driver.refresh()
 
-    @pytest.fixture(
-        params=[("Ritushree Adhikary", "adhikaryritushree1@gmail.com", "7980710131", "700059", "Baguiati, Joramandir", "demo@upi"),
-                ("Srinjan Adhikary", "adhikarysrinjan@gmail.com", "8017758703", "700059", "Saltlake", "demo1@upi")])
+
+    @pytest.fixture(params=[("Ritushree Adhikary", "adhikaryritushree1@gmail.com", "7980710131", "700059", "Baguiati, Joramandir", "demo@upi")])
     def dataload(self, request):
+        return request.param
+
+    @pytest.fixture(params=['abc@upi', '7980710131@upi', 'demo@upi'])
+    def dataload1(self, request):
         return request.param
